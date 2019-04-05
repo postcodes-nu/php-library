@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Tristan
- * Date: 4/5/2019
- * Time: 1:11 PM
- */
-
 namespace postcodes_nu;
 
 
@@ -14,7 +7,7 @@ class Auth
     private $email;
     private $password;
 
-    private $callURL = 'https://dev.postcodes.nu/api/auth/login';
+    private $callURL = 'https://postcodes.nu/api/auth/login';
 
     public function __construct($email, $password)
     {
