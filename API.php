@@ -7,7 +7,7 @@ class API
 {
     private $bearer;
     private $subscription;
-    private $baseUrl = 'https://dev.postcodes.nu/api/v1/postcode/';
+    private $baseUrl = 'https://postcodes.nu/api/v1/postcode/';
 
     public function __construct($bearer, $subscription)
     {
